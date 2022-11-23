@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  cshop.apigateway:
+    container_name: cshopapigateway
+    image: ${DOCKER_REGISTRY-}cshopapigateway
+    build:
+      context: .
+      dockerfile: CShop.APIGateway/Dockerfile
+    ports:
+      - 3000:80

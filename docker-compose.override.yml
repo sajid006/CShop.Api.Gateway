@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  cshop.apigateway:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
