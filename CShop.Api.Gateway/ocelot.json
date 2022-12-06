@@ -4,24 +4,24 @@
     {
       "UpstreamPathTemplate": "/api/users",
       "UpstreamHttpMethod": [ "Get" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.12.130.179",
-          "Port": 5000
+          "Host": "cshopuser.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/users"
     },
-
+    "​",
     {
       "UpstreamPathTemplate": "/api/users/signup",
       "UpstreamHttpMethod": [ "Post" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.12.130.179",
-          "Port": 5000
+          "Host": "cshopuser.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/users/signup"
@@ -29,11 +29,11 @@
     {
       "UpstreamPathTemplate": "/api/users/login",
       "UpstreamHttpMethod": [ "Post" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.12.130.179",
-          "Port": 5000
+          "Host": "cshopuser.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/users/login"
@@ -41,11 +41,11 @@
     {
       "UpstreamPathTemplate": "/api/users/{userId}",
       "UpstreamHttpMethod": [ "Get", "Put", "Delete" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.12.130.179",
-          "Port": 5000
+          "Host": "cshopuser.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/users/{userId}"
@@ -54,11 +54,11 @@
     {
       "UpstreamPathTemplate": "/api/products",
       "UpstreamHttpMethod": [ "Get", "Post" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.221.90.139",
-          "Port": 5000
+          "Host": "cshopcatalog.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/products"
@@ -66,11 +66,11 @@
     {
       "UpstreamPathTemplate": "/api/products/{productId}",
       "UpstreamHttpMethod": [ "Get", "Put", "Delete" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.221.90.139",
-          "Port": 5000
+          "Host": "cshopcatalog.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/products/{productId}"
@@ -78,11 +78,11 @@
     {
       "UpstreamPathTemplate": "/api/products/count/{productId}",
       "UpstreamHttpMethod": [ "Get" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.221.90.139",
-          "Port": 5000
+          "Host": "cshopcatalog.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/products/count/{productId}"
@@ -91,11 +91,11 @@
     {
       "UpstreamPathTemplate": "/api/orders",
       "UpstreamHttpMethod": [ "Get", "Post" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.221.32.73",
-          "Port": 3000
+          "Host": "cshoporder.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/orders"
@@ -103,11 +103,11 @@
     {
       "UpstreamPathTemplate": "/api/orders/{orderId}",
       "UpstreamHttpMethod": [ "Get", "Patch", "delete" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.221.32.73",
-          "Port": 3000
+          "Host": "cshoporder.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/orders/{orderId}"
@@ -115,11 +115,11 @@
     {
       "UpstreamPathTemplate": "/api/orders/users/{userId}",
       "UpstreamHttpMethod": [ "Get" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.221.32.73",
-          "Port": 3000
+          "Host": "cshoporder.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/orders/users/{userId}"
@@ -127,11 +127,11 @@
     {
       "UpstreamPathTemplate": "/api/carts",
       "UpstreamHttpMethod": [ "Get", "Post" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.221.32.73",
-          "Port": 3000
+          "Host": "cshoporder.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/carts"
@@ -139,11 +139,11 @@
     {
       "UpstreamPathTemplate": "/api/carts/{userId}",
       "UpstreamHttpMethod": [ "Get", "Patch", "Delete" ],
-      "DownstreamScheme": "http",
+      "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "20.221.32.73",
-          "Port": 3000
+          "Host": "cshoporder.azurewebsites.net",
+          "Port": 443
         }
       ],
       "DownstreamPathTemplate": "/api/carts/{userId}"
